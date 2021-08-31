@@ -107,3 +107,12 @@ nFotos = float(input('Digite el numero de fotos a revelar: '))
 revelado = nFotos * 15000
 costoFinal = (revelado * 0.16) + revelado
 print('El costo total del revealdo con iva es de $', costoFinal)
+
+# 11. En un hospital existen tres áreas: Ginecología 40%, Pediatría 30% y
+# Traumatología 30%. Obtener la cantidad de dinero que recibirá cada área,
+# para cualquier monto presupuestal.
+montoPresupuestal = float(input('Digite el monto presupuestal: $'))
+g = montoPresupuestal * 0.40
+t = montoPresupuestal * 0.30
+p = montoPresupuestal * 0.30
+print(f'Ginecologia ${g}', f'\nTraumatologia ${t}', f'\nPediatria ${p}')
