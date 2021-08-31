@@ -116,3 +116,13 @@ g = montoPresupuestal * 0.40
 t = montoPresupuestal * 0.30
 p = montoPresupuestal * 0.30
 print(f'Ginecologia ${g}', f'\nTraumatologia ${t}', f'\nPediatria ${p}')
+
+# 12. Una video tienda alquila DVD a $1.500 el día. Tiene una promoción
+# que consiste en dejar gratis el alquiler de una película. Realice un
+# algoritmo que teniendo como dato de entrada el total de películas
+# alquiladas, y el número de días de alquiler, determine el monto a
+# pagar.
+nPeliculas = float(input('Digite el numero de peliculas alquiladas: '))
+dias = float(input('Digite el dumero de dias a alquilar: '))
+total = (nPeliculas * dias * 15000)
+print('El valor total a pagar es de: $', total)
