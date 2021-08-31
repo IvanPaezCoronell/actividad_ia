@@ -35,3 +35,10 @@ print('La inversion total es de $', inversionTotal)
 print(f'El porcentaje de la 1ra es de {porcentajep1}%')
 print(f'El porcentaje de la 2da es de {porcentajep2}%')
 print(f'El porcentaje de la 3ra es de {porcentajep3}%')
+
+# 4. Un banco da a sus ahorradores un interes de 1.5% sobre el monto
+# ahorrado. Teniendo como dato de entrada el saldo inicial del
+# ahorrador determine el saldo final.
+saldoInicial = float(input('Digite el saldo inicial: $ '))
+saldoFinal = (saldoInicial * 0.015) + saldoInicial
+print('El saldo final es de: $', saldoFinal)
