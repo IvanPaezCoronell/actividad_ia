@@ -126,3 +126,12 @@ nPeliculas = float(input('Digite el numero de peliculas alquiladas: '))
 dias = float(input('Digite el dumero de dias a alquilar: '))
 total = (nPeliculas * dias * 15000)
 print('El valor total a pagar es de: $', total)
+
+# 13. Una Agencia de viajes cobra por un Tour a Cartagena $25.000
+# diarios por persona. Realice un algoritmo que determine el monto a
+# pagar por una familia que desee realizar dicho Tour sabiendo que
+# también cobran el 12% de IVA.
+nPersonas = float(input('Digite el numero de personas: '))
+monto = nPersonas * 25000
+iva = (monto * 0.12) + monto
+print('el total a pagar es: ', iva)
