@@ -42,3 +42,29 @@ print(f'El porcentaje de la 3ra es de {porcentajep3}%')
 saldoInicial = float(input('Digite el saldo inicial: $ '))
 saldoFinal = (saldoInicial * 0.015) + saldoInicial
 print('El saldo final es de: $', saldoFinal)
+
+# 5. Una empresa le hace los siguientes descuentos sobre el sueldo base
+# a sus trabajadores: 1% por ley de politica pública, 4% por seguro
+# social, 0.5% por seguro forzoso y 5% por caja de ahorro. Realice un
+# algoritmo que determine el monto de cada descuento y el monto total
+# a pagar al trabajador.
+sueldoBase = float(input('Digite el sueldo base del trabajador: $'))
+pp = sueldoBase * 0.01
+ss = sueldoBase * 0.04
+sf = sueldoBase * 0.0005
+ca = sueldoBase * 0.05
+saldoTotal = (sueldoBase - pp - ss - sf - ca)
+print('El descuento por ley de politica publica es de: $', pp)
+print('El descuento por seguro social es de: $', ss)
+print('El descuento por seguro forzoso es de: $', sf)
+print('El descuento por caja de ahorro es de: $', ca)
+print('El saldo total a pagar es de $', saldoTotal)
+
+
+
+
+
+
+
+
+
