@@ -72,13 +72,10 @@ colores = float(input('Cantidad de colores: '))
 total = (palabras * 20000)+(centimetro * 15000)+(colores * 25000)
 print(f'El costo total del aviso es de ${total}')
 
-
-
-
-
-
-
-
-
-
-
+# 7. Una empresa paga a sus empleados un bono por antigüedad que
+# consiste en $100.000 por el primer año laboral y $120.000 por cada
+# año siguiente. Realice un algoritmo que determine el monto del bono
+# a pagar a un trabajador que tiene varios años en la empresa.
+añosTrabajando = float(input('Digite los años que lleva trabajando: '))
+bono = (añosTrabajando * 120000) + 100000
+print(f'El bono a pagar es de: ${bono}')
