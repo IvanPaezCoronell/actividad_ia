@@ -89,3 +89,12 @@ cajaAhorro = pagoHoras * 0.05
 descuento = pagoHoras - cajaAhorro
 print('Descuento  por concepto de caja de ahorros: ', cajaAhorro)
 print(f'Valor total a pagar al profesor: ${descuento}')
+
+# 9. Un centro de comunicaciones alquilan tarjetas para realizar llamadas
+# y cobran el monto consumido de la tarjeta mas un recargo del 20%.
+# Teniendo como dato de entrada el monto inicial y el monto final de la
+# tarjeta, determine el costo de la llamada.
+montoInicial = float(input('Digite el valor de la tarjeta inicial: '))
+montoFinal = float(input('Digite el valor de la tarjeta final: '))
+costoLlamada = (montoInicial - montoFinal) / 0.2
+print('El costo de la llamada es de $', costoLlamada)
