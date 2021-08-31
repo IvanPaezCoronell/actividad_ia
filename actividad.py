@@ -79,3 +79,13 @@ print(f'El costo total del aviso es de ${total}')
 añosTrabajando = float(input('Digite los años que lleva trabajando: '))
 bono = (añosTrabajando * 120000) + 100000
 print(f'El bono a pagar es de: ${bono}')
+
+# 8. Una Universidad le paga a sus profesores $20.000 la hora y le hace
+# un descuento del 5% por concepto de caja de ahorro. Determine el
+# monto del descuento y el monto total a pagar al profesor.
+horas = float(input('Digite las horas trabajadas: '))
+pagoHoras = horas * 20000
+cajaAhorro = pagoHoras * 0.05
+descuento = pagoHoras - cajaAhorro
+print('Descuento  por concepto de caja de ahorros: ', cajaAhorro)
+print(f'Valor total a pagar al profesor: ${descuento}')
