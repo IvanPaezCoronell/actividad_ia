@@ -135,3 +135,14 @@ nPersonas = float(input('Digite el numero de personas: '))
 monto = nPersonas * 25000
 iva = (monto * 0.12) + monto
 print('el total a pagar es: ', iva)
+
+# 14. Un Hotel 5 Estrellas de Santa Marta tiene una promoción para sus
+# clientes. Cobra por una habitación $100.000 el primer día y por el
+# resto $200.000 por día. Realice un algoritmo que determine el valor
+# total a pagar por la habitación si la estadía fue de varios días.
+day = int(input('Digite el numero de dias a hospedar: '))
+if day == 1:
+    print('Debe pagar $100000')
+else:
+    total = (day * 200000) - 100000
+    print('Debe pagar: $', total)
